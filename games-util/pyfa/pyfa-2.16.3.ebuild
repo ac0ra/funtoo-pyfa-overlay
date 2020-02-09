@@ -3,7 +3,7 @@
 
 EAPI="6"
 PYTHON_COMPAT=( python3_6 python3_7 )
-PYTHON_REQ_USE="sqlite,threads"
+PYTHON_REQ_USE="sqlite"
 
 inherit desktop eutils python-single-r1 xdg-utils
 
