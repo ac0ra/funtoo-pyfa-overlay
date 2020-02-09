@@ -1,12 +1,7 @@
-# Gentoo Pyfa Overlay
+# Funtoo Pyfa Overlay
 
-The most recent [pyfa](https://github.com/pyfa-org/Pyfa) versions for Gentoo.
-
-## Add repo with layman
-
-To add the pyfa overlay you can simply use layman:
-
-    layman -a pyfa
+The most recent [pyfa](https://github.com/pyfa-org/Pyfa) versions for Funtoo.
+Forked from [gentoo-pyfa-overlay](https://github.com/ZeroPointEnergy/gentoo-pyfa-overlay.git).
 
 ## Add repo manually
 
@@ -14,7 +9,7 @@ To configure the repo manually add the following config to `/etc/portage/repos.c
 
     [pyfa]
     priority = 50
-    location = /usr/local/portage/pyfa
+    location = /var/git/pyfa
     sync-type = git
-    sync-uri = git://github.com/ZeroPointEnergy/gentoo-pyfa-overlay.git
+    sync-uri = git://github.com/ac0ra/funtoo-pyfa-overlay.git
     auto-sync = Yes
